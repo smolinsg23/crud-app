@@ -1,0 +1,8 @@
+
+<h1>List of items</h1>
+<%@listing.each do |listings| %>
+<h2> <%=listings.item%> </h2>
+<p> <%=listings.description%> </p>
+<p> <%=listings.price %> </p>
+<p> <%=listings.location %> </p>
+<%end%>
